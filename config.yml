@@ -1,11 +1,20 @@
-# site title
+
+# 标题
 title: 纸笔人
 
-# github user
+# github 用户名
 user: WingLim
 
-# issue repo
+# blog 内容来源 repo
 repo: Write
 
-# per page
+# 多用户，设定哪些用户写的 issue 内容可以展示出来，项目的用户名会自动包括进来
+# 多个用户用逗号（英文逗号）隔开，例如：user0,user1
+authors: 
+
+# 分页
 per_page: 7
+
+# 是否显示 sandbox，设置是否允许用户手动写入 issue 地址进行快速预览
+# 默认 false
+sandbox: false
