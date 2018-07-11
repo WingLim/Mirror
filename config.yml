@@ -1,20 +1,30 @@
+# site title
+title: 执笔人
 
-# 标题
-title: 纸笔人
-
-# github 用户名
+# user name or organization name
 user: WingLim
 
-# blog 内容来源 repo
-repo: Write
+# issue repository
+repository: Write
 
-# 多用户，设定哪些用户写的 issue 内容可以展示出来，项目的用户名会自动包括进来
-# 多个用户用逗号（英文逗号）隔开，例如：user0,user1
-authors: 
+# multi-author
+authors:
 
-# 分页
-per_page: 7
+# token
+# token should be separated by '#'
+# example: 5#c31bffc137f44faf7efc4a84da827g7ca2cfeaa
+token: 0#e5f404a2d18ee64a587f41e002bd57482e793c6
 
-# 是否显示 sandbox，设置是否允许用户手动写入 issue 地址进行快速预览
-# 默认 false
-sandbox: false
+# posts per page
+perpage: 7
+
+
+# advance config
+
+# organization repository (?)
+organization: false
+
+# post order
+# order by create time" or "update time"
+# 'UPDATED_AT' or 'CREATED_AT'
+order: 'CREATED_AT'
