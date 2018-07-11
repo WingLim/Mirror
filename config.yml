@@ -1,5 +1,5 @@
 # site title
-title: 执笔人
+title: 纸笔人
 
 # user name or organization name
 user: WingLim
@@ -8,12 +8,12 @@ user: WingLim
 repository: Write
 
 # multi-author
-authors:
+authors: WingLim
 
 # token
 # token should be separated by '#'
 # example: 5#c31bffc137f44faf7efc4a84da827g7ca2cfeaa
-token: 0#e5f404a2d18ee64a587f41e002bd57482e793c6
+token: 3#e77b6769f6e8379b32ddeae5f3cf4d80279b26a
 
 # posts per page
 perpage: 7
